@@ -1,0 +1,632 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{
+	font-size: 62.5%;/*16px*62.5%=10px*/
+
+}
+
+
+
+img{
+	
+	height: auto;
+}
+
+a{
+	
+	text-decoration: none;
+	display: block;
+}
+p{
+
+}
+
+.text-center{
+	text-align: center
+}
+body{
+
+}
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ vertical-align:baseline;
+ background:transparent;
+}
+
+body {
+ /* プロジェクトによって変動 */
+ min-width: 1000px;
+ color: #000;
+ line-height: 1.6;
+ font-weight: 400;
+ font-family: 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'YuGothic', '游ゴシック', 'メイリオ', Meiryo, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+
+ width: 100%;
+ font-smoothing: antialiased;
+ font-variant-numeric: tabular-nums;
+ /* safari hover対策 */
+ -webkit-font-smoothing: antialiased;
+
+
+　
+
+　
+
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+ display:block;
+}
+
+ul, ol {
+ list-style:none;
+}
+
+blockquote, q {
+ quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content:'';
+ content:none;
+}
+
+a {
+ margin:0;
+ padding:0;
+ vertical-align:baseline;
+ text-decoration: none;
+ color: inherit;
+}
+
+/* change colours to suit your needs */
+ins {
+ background-color:#ff9;
+ color:#000;
+ text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+ background-color:#ff9;
+ color:#000;
+ font-style:italic;
+ font-weight:bold;
+}
+
+del {
+ text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+ border-bottom:1px dotted;
+ cursor:help;
+}
+
+table {
+ border-collapse:collapse;
+ border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+ display:block;
+ height:1px;
+ border:0;
+ border-top:1px solid #cccccc;
+ margin:1em 0;
+ padding:0;
+}
+
+input, select {
+ vertical-align:middle;
+}
+
+img {
+ vertical-align: bottom;
+ line-height: 1.0;
+}
+
+button {
+ line-height: 1.0;
+ background-color: transparent;
+ border: none;
+ cursor: pointer;
+ outline: none;
+ padding: 0;
+ appearance: none;
+}
+
+
+/*ここからbody*/
+body {
+	background-color: #242424;
+	font-family: Helvetica;
+}
+
+.sp-none{
+	display: none;
+}
+
+.pc-none{
+	display: none;
+}
+/* ここからheader*/
+header {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+
+.header-container img {
+	width: 105px;
+	margin-top: 70px;
+	margin-bottom: 25px;
+}
+
+/*ここからtop-wrapper*/
+.top-wrapper {
+	background-image: url(images/americanhouse.png);
+	background-size: cover;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+	
+
+.top-container img {
+	width: 335px;
+	margin: 90px 0 90px 115px;
+}
+
+/*ここからmiddle-wrapper*/
+.middle-wrapper {
+	max-width: 958px;
+	margin: 0 auto;
+}
+
+
+.middle-container {
+	padding-top: 150px;
+	display: flex;
+	width: 100%;
+}
+
+.middle-left {
+	display: block;
+	width: 65%;
+	box-sizing: border-box;
+}
+
+.middle-left h2, h1 {
+	word-spacing: 10px;
+}
+
+.middle-left h2 {
+	color: #DAE000;
+	padding-bottom: 20px;
+	font-size: 24px;
+	letter-spacing: 5px;
+}
+
+.middle-left h1 {
+	color: white;
+	padding-bottom: 60px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.middle-left .middle-text {
+	font-size: 18px;
+	color: #C9CACA;
+	padding-bottom: 90px;
+	letter-spacing: 4px;
+}
+
+.date {
+	border: 3px solid #DAE000;
+	width: 110px;
+	height: 110px;
+	position: relative;
+}
+
+.date .datenumber {
+	font-size: 70px;
+	color: #fff;
+	position: absolute;
+	left: 47px;
+}
+
+
+.date .datetext {
+	color: #fff;
+	font-size: 13px;
+	letter-spacing: 3px;
+	position: absolute;
+	top: 28px;
+	left: 135px;
+}
+
+.middle-right {
+	display: block;
+	width: 35%;
+	box-sizing: border-box;
+}
+
+.middle-right img {
+	width: 100%;
+}
+
+/*ここからbottom-wrapper*/
+.bottom-wrapper {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.heading {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.heading h2 {
+	padding: 130px 0 62px 0;
+	color: white;
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing: 4px
+}
+
+
+
+.pjt-box {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row;
+	padding-bottom: 145px;
+}
+
+.pjts {
+	position: relative;
+	width: 22%;
+}
+
+.pjt-photo {
+	width: 100%;
+}
+
+.pjt-photo a {
+	display: block;
+	width: 100%;
+	
+}
+.pjt-photo a:hover{
+	background-color: #DAE000;
+
+}
+
+
+.pjt-photo a img {
+	width: 100%;
+}
+
+.mask {
+	position: absolute;
+	top: 46px;
+	left: 20px;
+	display: none;
+}
+
+.mask .mask-head {
+	font-size: 18px;
+	padding-bottom: 35px;
+}
+
+.mask p {
+	font-size: 12px;
+	letter-spacing: 2px;
+	padding-bottom: 100px;
+}
+
+.mask h3 {
+	font-size: 12px;
+}
+
+.pjt-photo a:hover img {
+	display: block;
+	opacity: 0.2;
+}
+
+.pjts:hover .mask{
+	display: block;
+
+}
+
+/*ここからfooter*/
+footer {
+	max-width: 1170px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	color: #C9CACA;
+	border-top: 1px solid #C9CACA;
+	padding: 60px 0;
+}
+
+.left-footer img {
+	width: 180px;
+	padding-bottom: 80px;
+}
+
+
+.mid-footer li, .right-footer li {
+	padding-bottom: 45px;
+}
+
+
+ul li:last-of-type {
+	padding-bottom: 0;
+}
+
+.footer-mobile {
+	display: none;
+}
+
+/*ここからresponsive*/
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+	/*ここからheader部分*/
+	header {
+		max-width: 1000px;
+	}
+
+	/*ここからtop-wrapper*/
+	.top-wrapper {
+		max-width: 1000px;
+	}
+
+	/*ここからmiddle-wrapper*/
+	.middle-wrapper {
+		max-width: 840px;
+	}
+
+	.middle-left {
+		width: 55%;
+	}
+
+	.middle-left p {
+		width: 80%;
+	}
+
+	.middle-right {
+		width: 45%;
+	}
+
+	/*ここからbottom-wrapper*/
+	.bottom-wrapper {
+		max-width: 840px;
+	}
+
+	.pjts {
+		width: 45%;
+		
+	}
+
+	.tablet {
+		padding-top: 100px;
+	}
+
+	/*ここからfooter*/
+	footer {
+		max-width: 840px;
+	}
+
+
+}
+
+@media screen and (max-width: 479px) {
+	/*ここからheader*/
+	header {
+		max-width: 960px;
+	}
+
+	.header-container img {
+		width: 280px;
+		display: block;
+    	margin: 0 auto;
+    	padding: 40px 0 20px 0;
+	}
+
+	/*ここからtop-wrapper*/
+	.top-wrapper {
+		max-width: 960px;
+	}
+
+	.top-wrapper img {
+		width: 255px;
+	}
+
+	/*ここからmiddle-wrapper*/
+	.middle-wrapper {
+		max-width: 760px;
+	}
+
+	.middle-container {
+		flex-direction: column;
+	}
+
+	.middle-left {
+		width: 100%;
+	}
+
+	.middle-right {
+		width: 100%;
+		text-align: center;
+	}
+
+	.date {
+		margin: 0 auto;
+		width: 160px;
+		height: 160px;
+		margin-bottom: 130px;
+	}
+
+	.date .datenumber {
+		font-size: 100px;
+    	left: 70px;
+	}
+
+	.middle-container {
+		padding-top: 50px;
+	}
+
+	.middle-text, .middle-left h2, h1 {
+		text-align: center;
+	}
+
+	.middle-left h2 {
+		font-size: 48px;
+	}
+
+	.middle-left h1 {
+		padding-bottom: 40px;
+    	font-size: 48px;
+	}
+
+	.middle-left .middle-text {
+    	font-size: 36px;
+   		letter-spacing: 8px;
+    }
+
+    .date .datetext {
+    	font-size: 19px;
+    	left: 190px;
+    }
+
+    /*ここからbottom-wrapper*/
+    .bottom-wrapper {
+    	max-width: 760px;
+    }
+
+    .heading h2 {
+    	text-align: center;
+    	font-size: 36px;
+    }
+
+    .pjt-box {
+    	flex-direction: column;
+    	padding-bottom: 0;
+    }
+
+    .pjts {
+    	width: 100%;
+    	padding-bottom: 180px;
+    }
+
+    footer {
+    	max-width: 760px;
+    	flex-direction: column;
+    	text-align: center;
+    	padding: 180px 0;
+    }
+
+    .left-footer img {
+    	padding-bottom: 105px;
+    }
+
+    .mid-footer{
+    	font-size: 36px;
+    	margin-bottom: 80px;
+    }
+
+    .mid-right{
+    	font-size: 24px;
+    }
+
+    .right-footer li {
+    	padding-bottom: 15px;
+    	font-size: 24px;
+	}	
+
+    .sp-none {
+    	display: none;
+    }
+
+    .pc-none {
+    	display: block;
+    	padding-top: 90px;
+    	font-size: 24px;
+    }
+
+
+    /*ここからfooter*/
+    footer {
+    	max-width: 760px;
+    	flex-direction: column;
+    	text-align: center;
+    	padding: 180px 0;
+    }
+
+    .left-footer img {
+    	padding-bottom: 105px;
+    }
+
+    .mid-footer{
+    	font-size: 36px;
+    	margin-bottom: 80px;
+    }
+
+    .mid-right{
+    	font-size: 24px;
+    }
+
+    .right-footer li {
+    	padding-bottom: 15px;
+    	font-size: 24px;
+	}	
+
+    .sp-none {
+    	display: none;
+    }
+
+    .pc-none {
+    	display: block;
+    	padding-top: 90px;
+    	font-size: 24px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
